@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/empTitle"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="공고제목"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/comName"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="기업명"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/expDate"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="마감일"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/id"
+                android:layout_width="0dp"
+                android:layout_height="0dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

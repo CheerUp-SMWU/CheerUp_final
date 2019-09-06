@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--<ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_weight = "1"
+        app:srcCompat = "@mipmap/ic_launcher"/>-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="69dp"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/comName"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="기업명"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/empTitle"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:text="공고제목"
+            android:textSize="20dp"
+            android:layout_margin="2dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/expDate"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="마감일"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/id"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+    </LinearLayout>
+</LinearLayout>
